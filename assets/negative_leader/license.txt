@@ -1,0 +1,11 @@
+Model Information:
+* title:	Negative leader
+* source:	https://sketchfab.com/3d-models/negative-leader-0fc7bd37a05c40878cd4dae21f064701
+* author:	Advanced Visualization Lab - Indiana University (https://sketchfab.com/AVL)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Negative leader" (https://sketchfab.com/3d-models/negative-leader-0fc7bd37a05c40878cd4dae21f064701) by Advanced Visualization Lab - Indiana University (https://sketchfab.com/AVL) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

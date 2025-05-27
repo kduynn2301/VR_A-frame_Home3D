@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- Gas Stove -->
+      <a-entity
+        id="gas-stove"
+        geometry="primitive: cylinder; radius: 0.4; height: 0.1"
+        material="color: #333"
+        position="0 0 0"
+        rotation="90 0 0"
+      ></a-entity>
+
+      <!-- Fire -->
+      <a-entity
+        id="fire"
+        geometry="primitive: plane; width: 0.5; height: 0.5"
+        material="src: #fireTexture; transparent: true"
+        position="0 0.05 0"
+        rotation="-90 0 0"
+        animation="property: material.opacity; from: 0; to: 1; dir: alternate; loop: true; dur: 500"
+      ></a-entity>
+
+      <!-- Fire Texture -->
+      <img id="fireTexture" src="https://cdn.rawgit.com/mayognaise/aframe-fire/master/dist/img/fire.png" style="display: none;">
+
+      <!-- Camera and Lights -->
+      <a-entity camera look-controls></a-entity>
+      <a-light type="ambient" color="#888"></a-light>
+      <a-light type="directional" position="-5 5 5" target="#gas-stove"></a-light>
+    </a-scene>
+  </body>
+</html>
